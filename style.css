@@ -1,0 +1,27 @@
+h1 {
+    font: 24px sans-serif;
+  }
+  .bar {
+    fill: #5272F2;
+  }
+  
+
+  .axis {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
+
+  .data {
+    fill: red;
+    stroke-width: 1; 
+  }
